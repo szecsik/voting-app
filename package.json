@@ -1,0 +1,31 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chart.js": "^2.7.2",
+    "connect-pg-simple": "^5.0.0",
+    "connect-session-knex": "^1.4.0",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "hbs": "^4.0.1",
+    "js": "^0.1.0",
+    "knex": "^0.15.2",
+    "mustache": "^3.0.0",
+    "nodemon": "^1.18.4",
+    "parser": "^0.1.4",
+    "pg": "^7.4.3",
+    "randomstring": "^1.1.5",
+    "require": "^2.4.20"
+  }
+}

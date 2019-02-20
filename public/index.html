@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+</head>
+<body>
+<script type="x-tmpl-mustache" id="template">
+	<div class="vote">
+
+	<h2 class="elem">{{{cont}}}</h2>
+	<h2 class="del">X</h2>
+	</div>
+
+
+</script>
+
+
+
+<form class="create">
+	<label>Question</label>
+	<input type="text" name="name" id="question">
+	<label for="add">Add Answer</label>
+	<input type="text" name="add" id="answer-in">
+	<div class="btns">
+		
+	<button type="button"  id="button">Add Answer</button>
+	<button type="button" id="save">Save Vote</button>
+
+	</div>
+
+</form>
+
+
+<div class="workbench">
+	
+<div class="question-cont"></div>
+
+<div class="answer-cont">
+	
+<h1 class="greet">Create a cool poll!</h1>
+
+</div>
+
+</div>
+
+<div class="wrapper hidden">
+
+	<div class="popup">
+	
+	<h1>Your poll is ready</h1>
+	<a href="#" class="controller">Start Voting</a>
+</div>
+
+</div>
+
+
+
+
+<footer class="foot"><h2> -2018- </h2><h2> Made With 	</h2><h2 class="heart"> &#10084;</h2></footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.2/Chart.js"></script>
+<script type="text/javascript" src="/scripts/mustache/mustache.js"></script>
+<script type="text/javascript" src="vote.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
+

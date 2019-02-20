@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script type="x-tmpl-mustache" id="template">
+	<div class="vote">
+
+	<h2 class="elem">{{{cont}}}</h2>
+	<h2 class="del">X</h2>
+	</div>
+
+
+</script>
+<form class="create">
+	<label>Question</label>
+	<input type="text" name="name" id="question">
+	<label for="add">Answer</label>
+	<input type="text" name="add" id="answer-in">
+	<label>Add Anser</label>
+	<button type="button" id="button">Add Answer</button>
+	<button type="button" id="save">Save Vote</button>
+</form>
+
+
+<div class="workbench">
+	
+<div class="question-cont"></div>
+
+<div class="answer-cont"></div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.2/Chart.js"></script>
+<script type="text/javascript" src="/scripts/mustache/mustache.js"></script>
+<script type="text/javascript" src="vote.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

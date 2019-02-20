@@ -1,0 +1,16 @@
+body{
+	
+	background-color: #e8e8e8;
+	font-family: 'Roboto', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+.chart-cont{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	width: 40%;
+	height: auto;
+}
